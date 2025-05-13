@@ -1,0 +1,13 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "confluent-kafka>=2.10.0",
+    "fastapi>=0.115.12",
+    "fastapi-socketio>=0.0.10",
+    "python-socketio[asgi,asyncio]>=5.13.0",
+    "uvicorn>=0.34.2",
+]

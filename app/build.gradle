@@ -1,0 +1,17 @@
+plugins {
+    id 'application'
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.kafka:kafka-streams:3.6.0'
+    implementation 'org.slf4j:slf4j-simple:2.0.7'
+}
+
+application {
+    mainClass = 'ChatStreamApp' // 혹은 'com.example.ChatStreamApp' if 패키지 있음
+}
